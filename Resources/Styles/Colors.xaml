@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Uygulamada kullanılan ortak renkler -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Color x:Key="SecondaryDarkText">#9880e5</Color>
+    <Color x:Key="White">White</Color>
+    <Color x:Key="Black">Black</Color>
+    <Color x:Key="Magenta">#D600AA</Color>
+    <Color x:Key="OffBlack">#1f1f1f</Color>
+    <Color x:Key="Gray200">#C8C8C8</Color>
+    <Color x:Key="Gray300">#ACACAC</Color>
+    <Color x:Key="Gray600">#404040</Color>
+    <Color x:Key="Gray900">#212121</Color>
+    <Color x:Key="Gray950">#141414</Color>
+    <!-- Açık tema renkleri -->
+    <Color x:Key="CalcLightBackground">#F3F3F3</Color>
+    <Color x:Key="CalcLightButton">#E2E2E2</Color>
+    <Color x:Key="CalcLightOperator">#E9E9E9</Color>
+    <Color x:Key="CalcLightText">#202020</Color>
+    <Color x:Key="CalcLightEqual">#7659B8</Color>
+    <!-- Koyu tema renkleri -->
+    <Color x:Key="CalcDarkBackground">#202020</Color>
+    <Color x:Key="CalcDarkButton">#3B3B3B</Color>
+    <Color x:Key="CalcDarkOperator">#323232</Color>
+    <Color x:Key="CalcDarkText">#FFFFFF</Color>
+    <Color x:Key="CalcDarkEqual">#A88BE8</Color>
+</ResourceDictionary>

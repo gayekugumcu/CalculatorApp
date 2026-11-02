@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CalculatorApp.SettingsPage"
+    Title="Ayarlar"
+    Shell.NavBarIsVisible="False">
+
+    <VerticalStackLayout Padding="20"
+                         Spacing="20">
+
+        <Label Text="Ayarlar"
+               Style="{StaticResource CalculatorTitleStyle}" />
+
+        <Label Text="Uygulama Teması"
+               FontAttributes="Bold" />
+
+        <!-- Tema seçimi -->
+        <RadioButton
+            x:Name="LightThemeRadio"
+            Content="Açık Tema"
+            GroupName="ThemeOptions" />
+
+        <RadioButton
+            x:Name="DarkThemeRadio"
+            Content="Koyu Tema"
+            GroupName="ThemeOptions" />
+
+        <RadioButton
+            x:Name="SystemThemeRadio"
+            Content="Sistem Teması"
+            GroupName="ThemeOptions" />
+
+    </VerticalStackLayout>
+
+</ContentPage>
